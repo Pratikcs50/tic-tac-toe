@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .text_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .sub_heading {
+            font-family: 'Bilbo';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 45px;
+            color: #000000;
+        }
+        .heading {
+            font-family: 'Bilbo';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 96px;
+            line-height: 120px;
+            text-align: center;
+            color: #000000;
+        }
+    }
+}
