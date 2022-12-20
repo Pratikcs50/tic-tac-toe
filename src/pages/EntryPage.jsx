@@ -1,6 +1,6 @@
 import React from 'react'
 
-function entryPage() {
+function EntryPage() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function entryPage() {
   )
 }
 
-export default entryPage
+export default EntryPage
