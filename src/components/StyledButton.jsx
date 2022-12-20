@@ -4,7 +4,7 @@ import {
 } from '@mui/material'
 
 function StyledButton(props) {
-  const { styles, title } = props;
+  const { styles, title, color } = props;
   return (
     <Button
       sx={{
@@ -21,6 +21,7 @@ function StyledButton(props) {
         ...styles,
       }}
       variant="contained"
+      color={color}
     >
       {title}
     </Button>
