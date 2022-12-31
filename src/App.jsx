@@ -3,6 +3,7 @@ import "./App.scss";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import Entry from "./layout/entry/Entry";
 import Register from "./layout/register/Register";
+import Login from "./layout/login/Login";
 
 const theme = createTheme({
   palette: {
@@ -19,7 +20,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <div className='App'>
-        <Register />
+        <Login />
       </div>
     </ThemeProvider>
   );
