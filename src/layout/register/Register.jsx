@@ -5,7 +5,7 @@ import StyledTextField from "../../components/StyledTextField/StyledTextField";
 
 function Register() {
   return (
-    <div className='container'>
+    <div className='register_container'>
       <div className='text_container'>
         <div className='sub_heading'>Create account</div>
         <div className='heading'>Let's get to know you better!</div>
