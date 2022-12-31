@@ -16,6 +16,11 @@ function Register() {
           type='text'
           placeholder='Type your name here'
         />
+        <StyledTextField
+          inputTitle='Username'
+          type='text'
+          placeholder='Type your username here'
+        />
       </div>
       <div className='action_container'>
         <StyledButton title='Register' />
@@ -25,3 +30,5 @@ function Register() {
 }
 
 export default Register;
+
+// added text field for name input in register page layout
