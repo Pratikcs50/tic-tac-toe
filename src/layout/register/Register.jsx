@@ -1,6 +1,7 @@
-import React from 'react'
-import './Register.scss'
-import StyledButton from '../../components/StyledButton';
+import React from "react";
+import "./Register.scss";
+import StyledButton from "../../components/StyledButton";
+import StyledTextField from "../../components/StyledTextField/StyledTextField";
 
 function Register() {
   return (
@@ -10,7 +11,11 @@ function Register() {
         <div className='heading'>Let's get to know you better!</div>
       </div>
       <div className='form_container'>
-        
+        <StyledTextField
+          inputTitle='Your name'
+          type='text'
+          placeholder='Type your name here'
+        />
       </div>
       <div className='action_container'>
         <StyledButton title='Register' />
@@ -19,4 +24,4 @@ function Register() {
   );
 }
 
-export default Register
+export default Register;
