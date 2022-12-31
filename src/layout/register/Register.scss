@@ -1,11 +1,13 @@
 .register_container {
+  position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex-direction: column;
-  height: 100vh;
+  max-height: 100vh;
+  height: 720px;
   width: 100vw;
-  padding-top: 32px;
+  padding-top: 76px;
 
   .text_container {
     display: flex;
@@ -15,6 +17,7 @@
     gap: 18px;
     padding: 8px 24px;
     height: fit-content;
+    margin-bottom: 42px;
 
     .sub_heading {
       font-family: "Epilogue";
@@ -42,10 +45,13 @@
   }
 
   .action_container {
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 24px;
+    position: absolute;
+    bottom: 24px;
   }
 }
