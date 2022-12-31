@@ -21,6 +21,16 @@ function Register() {
           type='text'
           placeholder='Type your username here'
         />
+        <StyledTextField
+          inputTitle='Email'
+          type='email'
+          placeholder='Type your email here'
+        />
+        <StyledTextField
+          inputTitle='Password'
+          type='password'
+          placeholder='Type your password here'
+        />
       </div>
       <div className='action_container'>
         <StyledButton title='Register' />
