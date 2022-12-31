@@ -5,6 +5,7 @@
   flex-direction: column;
   height: 100vh;
   width: 100vw;
+  padding-top: 32px;
 
   .text_container {
     display: flex;
@@ -12,7 +13,7 @@
     justify-content: center;
     flex-direction: column;
     gap: 18px;
-    padding: 24px;
+    padding: 8px 24px;
     height: fit-content;
 
     .sub_heading {

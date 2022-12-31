@@ -2,10 +2,12 @@ import React from "react";
 import "./Register.scss";
 import StyledButton from "../../components/StyledButton";
 import StyledTextField from "../../components/StyledTextField/StyledTextField";
+import ActionBar from "../../components/ActionBar/ActionBar";
 
 function Register() {
   return (
     <div className='register_container'>
+      <ActionBar to=""/>
       <div className='text_container'>
         <div className='sub_heading'>Create account</div>
         <div className='heading'>Let's get to know you better!</div>
@@ -40,5 +42,3 @@ function Register() {
 }
 
 export default Register;
-
-// added text field for name input in register page layout
