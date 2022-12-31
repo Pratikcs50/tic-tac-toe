@@ -2,6 +2,7 @@ import * as React from "react";
 import "./App.scss";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import Entry from "./layout/entry/Entry";
+import Register from "./layout/register/Register";
 
 const theme = createTheme({
   palette: {
@@ -17,8 +18,8 @@ const theme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <div className="App">
-        <Entry />
+      <div className='App'>
+        <Register />
       </div>
     </ThemeProvider>
   );
