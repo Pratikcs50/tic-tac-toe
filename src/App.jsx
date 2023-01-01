@@ -6,6 +6,7 @@ import Login from "./layout/login/Login";
 import NewGame from "./layout/newGame/NewGame";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import EntryPage from "./pages/EntryPage";
+import RegisterPage from "./pages/RegisterPage";
 
 const theme = createTheme({
   palette: {
@@ -25,7 +26,7 @@ function App() {
         <Router>
           <Routes>
             <Route path='/' exact element={<EntryPage />} />
-            <Route path='/register' element={<Register />} />
+            <Route path='/register' element={<RegisterPage />} />
             <Route path='/login' element={<Login />} />
             <Route path='/new_game' element={<NewGame />} />
           </Routes>
