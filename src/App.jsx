@@ -5,6 +5,7 @@ import Entry from "./layout/entry/Entry";
 import Register from "./layout/register/Register";
 import Login from "./layout/login/Login";
 import NewGame from "./layout/newGame/NewGame";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const theme = createTheme({
   palette: {
@@ -21,7 +22,14 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <div className='App'>
-        <NewGame />
+        <Router>
+          <Routes>
+            <Route path='/' exact element={<Entry />} />
+            <Route path='/register' element={<Register />} />
+            <Route path='/login' element={<Login />} />
+            <Route path='/new_game' element={<NewGame />} />
+          </Routes>
+        </Router>
       </div>
     </ThemeProvider>
   );
