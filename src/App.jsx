@@ -6,6 +6,7 @@ import EntryPage from "./pages/EntryPage";
 import RegisterPage from "./pages/RegisterPage";
 import LoginPage from "./pages/LoginPage";
 import NewGamePage from "./pages/NewGamePage";
+import HomePage from "./pages/HomePage";
 
 const theme = createTheme({
   palette: {
@@ -28,6 +29,7 @@ function App() {
             <Route path='/register' element={<RegisterPage />} />
             <Route path='/login' element={<LoginPage />} />
             <Route path='/new_game' element={<NewGamePage />} />
+            <Route path='/home' element={<HomePage />} />
           </Routes>
         </Router>
       </div>
