@@ -1,11 +1,8 @@
-import React from 'react'
+import React from "react";
+import NewGame from "../layout/newGame/NewGame";
 
 function NewGamePage() {
-  return (
-    <div>
-      
-    </div>
-  )
+  return <NewGame />;
 }
 
-export default NewGamePage
+export default NewGamePage;

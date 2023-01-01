@@ -1,11 +1,11 @@
 import * as React from "react";
 import "./App.scss";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
-import NewGame from "./layout/newGame/NewGame";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import EntryPage from "./pages/EntryPage";
 import RegisterPage from "./pages/RegisterPage";
-import LoginPage from "./pages/LoginPage"
+import LoginPage from "./pages/LoginPage";
+import NewGamePage from "./pages/NewGamePage";
 
 const theme = createTheme({
   palette: {
@@ -27,7 +27,7 @@ function App() {
             <Route path='/' exact element={<EntryPage />} />
             <Route path='/register' element={<RegisterPage />} />
             <Route path='/login' element={<LoginPage />} />
-            <Route path='/new_game' element={<NewGame />} />
+            <Route path='/new_game' element={<NewGamePage />} />
           </Routes>
         </Router>
       </div>
