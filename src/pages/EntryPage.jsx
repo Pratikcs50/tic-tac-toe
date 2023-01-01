@@ -1,11 +1,8 @@
-import React from 'react'
+import React from "react";
+import Entry from "../layout/entry/Entry";
 
 function EntryPage() {
-  return (
-    <div>
-      
-    </div>
-  )
+  return <Entry />;
 }
 
-export default EntryPage
+export default EntryPage;
