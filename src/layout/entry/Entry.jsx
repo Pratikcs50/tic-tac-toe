@@ -13,11 +13,11 @@ function Entry() {
         <div className='heading'>tic tac toe</div>
       </div>
       <div className='action_container'>
-        <StyledButton title='Login' onClick={() => navigate("./login")} />
+        <StyledButton title='Login' onClick={() => navigate("/login")} />
         <StyledButton
           title='Register'
           color='secondary'
-          onClick={() => navigate("./register")}
+          onClick={() => navigate("/register")}
         />
       </div>
     </div>

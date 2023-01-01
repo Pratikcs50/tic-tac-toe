@@ -3,11 +3,14 @@ import "./Register.scss";
 import StyledButton from "../../components/StyledButton/StyledButton";
 import StyledTextField from "../../components/StyledTextField/StyledTextField";
 import ActionBar from "../../components/ActionBar/ActionBar";
+import { useNavigate } from "react-router-dom";
 
 function Register() {
+  const navigate = useNavigate();
+
   return (
     <div className='register_container'>
-      <ActionBar to='' />
+      <ActionBar to='/' />
       <div className='text_container'>
         <div className='sub_heading'>Create account</div>
         <div className='heading'>Let's get to know you better!</div>
@@ -35,7 +38,7 @@ function Register() {
         />
       </div>
       <div className='action_container'>
-        <StyledButton title='Register' />
+        <StyledButton title='Register' onClick={() => navigate("/login")} />
       </div>
     </div>
   );
