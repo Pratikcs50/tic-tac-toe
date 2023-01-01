@@ -7,7 +7,7 @@ import ActionBar from "../../components/ActionBar/ActionBar";
 function Login() {
   return (
     <div className='login_container'>
-      <ActionBar to='' />
+      <ActionBar to='/' />
       <div className='text_container'>
         <div className='sub_heading'>Login</div>
         <div className='heading'>Please enter your details</div>
