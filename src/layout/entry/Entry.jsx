@@ -1,8 +1,11 @@
 import React from "react";
 import "./Entry.scss";
-import StyledButton from "../../components/StyledButton";
+import StyledButton from "../../components/StyledButton/StyledButton";
+import { useNavigate } from "react-router-dom";
 
 function Entry() {
+  const navigate = useNavigate();
+
   return (
     <div className='entry_container'>
       <div className='text_container'>
@@ -10,8 +13,12 @@ function Entry() {
         <div className='heading'>tic tac toe</div>
       </div>
       <div className='action_container'>
-        <StyledButton title='Login' />
-        <StyledButton title='Register' color='secondary' />
+        <StyledButton title='Login' onClick={() => navigate("./login")} />
+        <StyledButton
+          title='Register'
+          color='secondary'
+          onClick={() => navigate("./register")}
+        />
       </div>
     </div>
   );
