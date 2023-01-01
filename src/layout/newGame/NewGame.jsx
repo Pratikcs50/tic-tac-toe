@@ -1,8 +1,8 @@
-import React from 'react'
-import './NewGame.scss'
-import ActionBar from '../../components/ActionBar/ActionBar';
-import StyledTextField from '../../components/StyledTextField/StyledTextField';
-import StyledButton from '../../components/StyledButton';
+import React from "react";
+import "./NewGame.scss";
+import ActionBar from "../../components/ActionBar/ActionBar";
+import StyledTextField from "../../components/StyledTextField/StyledTextField";
+import StyledButton from "../../components/StyledButton/StyledButton";
 
 function NewGame() {
   return (
@@ -26,4 +26,4 @@ function NewGame() {
   );
 }
 
-export default NewGame
+export default NewGame;

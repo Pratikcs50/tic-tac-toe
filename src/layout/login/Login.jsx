@@ -1,8 +1,8 @@
-import React from 'react'
-import './Login.scss'
-import StyledTextField from '../../components/StyledTextField/StyledTextField';
-import StyledButton from '../../components/StyledButton';
-import ActionBar from '../../components/ActionBar/ActionBar';
+import React from "react";
+import "./Login.scss";
+import StyledTextField from "../../components/StyledTextField/StyledTextField";
+import StyledButton from "../../components/StyledButton/StyledButton";
+import ActionBar from "../../components/ActionBar/ActionBar";
 
 function Login() {
   return (
@@ -31,4 +31,4 @@ function Login() {
   );
 }
 
-export default Login
+export default Login;
