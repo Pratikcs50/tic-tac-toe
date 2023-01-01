@@ -1,11 +1,8 @@
-import React from 'react'
+import React from "react";
+import Home from "../layout/home/Home";
 
 function HomePage() {
-  return (
-    <div>
-      
-    </div>
-  )
+  return <Home />;
 }
 
-export default HomePage
+export default HomePage;
