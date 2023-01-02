@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardActions, CardContent, Box, Typography } from "@mui/material";
+import { Card, CardActions, CardContent, Typography } from "@mui/material";
 import "./GameInfoCard.scss";
 import StyledButton from "../StyledButton/StyledButton";
 
