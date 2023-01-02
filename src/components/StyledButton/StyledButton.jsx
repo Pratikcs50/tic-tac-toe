@@ -3,7 +3,7 @@ import { Button } from "@mui/material";
 import "./StyledButton.scss";
 
 function StyledButton(props) {
-  const { styles, title, color, onClick } = props;
+  const { styles, title, color, onClick, size } = props;
   return (
     <Button
       sx={{
@@ -12,6 +12,7 @@ function StyledButton(props) {
       className='styled_button'
       variant='contained'
       color={color}
+      size={size ? size : "medium"}
       onClick={onClick}>
       {title}
     </Button>
